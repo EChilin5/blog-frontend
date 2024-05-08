@@ -1,0 +1,43 @@
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    overflow: auto;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card-header{
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.card-header h2{
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.card-header button{
+  height: 2rem;
+  background-color: transparent;
+  border: none;
+}
+
+.card-header button:hover{
+  cursor: pointer;
+}
+
+.card-content div{
+    padding-bottom: 2px;
+}

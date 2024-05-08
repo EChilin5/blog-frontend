@@ -1,0 +1,102 @@
+.form-holder{
+    margin-top: 25px;
+}
+
+.form-container {
+    width: 500px;
+    margin: auto; 
+    background-color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+.input-container {
+    display: flexbox; 
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .input-container:focus-within{
+    border: 1px solid rgb(42, 132, 250);
+    color: white;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: black;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: medium;
+  }
+
+ 
+  
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+     border: 1px solid white; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+    outline: none;
+    font-size: medium;
+}
+
+textarea:focus{
+    border: 1px solid rgb(42, 132, 250);
+    border-radius: 5px;
+
+}
+
+.required-asterisk{
+    color: red;
+}
+
+.form-button{
+    background-color: rgb(31, 169, 31);
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.form-button:hover{
+    background-color: grey ;
+    cursor:pointer
+
+}
